@@ -1,0 +1,739 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 3 0 R >>
+endobj
+2 0 obj
+<< /Type /Outlines /Count 0 >>
+endobj
+3 0 obj
+<< /Type /Pages /Kids [8 0 R 9 0 R 10 0 R] /Count 3 >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+6 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier /Encoding /WinAnsiEncoding >>
+endobj
+7 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier-Bold /Encoding /WinAnsiEncoding >>
+endobj
+8 0 obj
+<< /Type /Page /Parent 3 0 R
+/MediaBox [0 0 595.28 841.89]
+/Contents 11 0 R
+/Resources <<
+  /Font <<
+    /F1 4 0 R
+    /F2 5 0 R
+    /F3 6 0 R
+    /F4 7 0 R
+  >>
+>>
+>>
+endobj
+9 0 obj
+<< /Type /Page /Parent 3 0 R
+/MediaBox [0 0 595.28 841.89]
+/Contents 12 0 R
+/Resources <<
+  /Font <<
+    /F1 4 0 R
+    /F2 5 0 R
+    /F3 6 0 R
+    /F4 7 0 R
+  >>
+>>
+>>
+endobj
+10 0 obj
+<< /Type /Page /Parent 3 0 R
+/MediaBox [0 0 595.28 841.89]
+/Contents 13 0 R
+/Resources <<
+  /Font <<
+    /F1 4 0 R
+    /F2 5 0 R
+    /F3 6 0 R
+    /F4 7 0 R
+  >>
+>>
+>>
+endobj
+11 0 obj
+<< /Length 11217 >>
+stream
+0.118 0.243 0.384 RG 1.50 w
+0.043 0.098 0.173 rg
+45.00 686.89 505.28 105.00 re B
+0.000 1.000 0.530 rg
+60.00 769.89 140.00 14.00 re f
+0.040 0.100 0.170 rg
+BT /F2 8 Tf 65.00 773.89 Td (EWB CLOUD LABS * OCT 2026) Tj ET
+1.000 1.000 1.000 rg
+BT /F2 17 Tf 60.00 747.89 Td (AWS VPC Peering Project Report) Tj ET
+0.600 0.700 0.800 rg
+BT /F1 10 Tf 60.00 731.89 Td (Connect Two VPCs. Prove Private Connectivity.) Tj ET
+0.900 0.950 1.000 rg
+BT /F2 8.5 Tf 60.00 706.89 Td (Student: Ujjwal Kumar   |   Track: AWS Architect Associate   |   Region: ap-south-1   |   Date: Oct 2026) Tj ET
+0.800 0.850 0.900 RG 1.00 w
+0.940 0.960 0.980 rg
+45.00 646.89 505.28 22.00 re B
+0.040 0.150 0.350 rg
+BT /F2 11 Tf 55.00 651.89 Td (1. Architecture, Non-Overlapping CIDRs & Resource Inventory) Tj ET
+0.100 0.450 0.750 rg
+BT /F2 9 Tf 495.28 651.89 Td ([15 Marks]) Tj ET
+0.100 0.100 0.100 rg
+BT /F1 8.5 Tf 45.00 634.89 Td (Project Architecture: Two isolated VPCs \(VPC A: 10.10.0.0/16 and VPC B: 10.20.0.0/16\) interconnected) Tj ET
+0.100 0.100 0.100 rg
+BT /F1 8.5 Tf 45.00 622.89 Td (via an active point-to-point VPC Peering Connection. App-B stays isolated with no Internet Gateway.) Tj ET
+0.750 0.800 0.850 RG 1.00 w
+0.880 0.910 0.950 rg
+45.00 588.89 505.00 18.00 re B
+0.150 0.200 0.300 rg
+BT /F2 8.5 Tf 51.00 593.89 Td (Resource Name) Tj ET
+0.150 0.200 0.300 rg
+BT /F2 8.5 Tf 136.00 593.89 Td (Logical Asset) Tj ET
+0.150 0.200 0.300 rg
+BT /F2 8.5 Tf 211.00 593.89 Td (AWS Resource ID) Tj ET
+0.150 0.200 0.300 rg
+BT /F2 8.5 Tf 336.00 593.89 Td (IPv4 CIDR / IP) Tj ET
+0.150 0.200 0.300 rg
+BT /F2 8.5 Tf 416.00 593.89 Td (Public IP) Tj ET
+0.150 0.200 0.300 rg
+BT /F2 8.5 Tf 471.00 593.89 Td (Security Group) Tj ET
+0.850 0.880 0.920 RG 0.75 w
+1.000 1.000 1.000 rg
+45.00 570.89 505.00 18.00 re B
+0.100 0.150 0.200 rg
+BT /F3 8 Tf 51.00 575.89 Td (ewb-vpc-a) Tj ET
+0.100 0.150 0.200 rg
+BT /F1 8 Tf 136.00 575.89 Td (VPC A) Tj ET
+0.100 0.150 0.200 rg
+BT /F3 8 Tf 211.00 575.89 Td (vpc-01a9b8c7d6e5f4321) Tj ET
+0.100 0.150 0.200 rg
+BT /F3 8 Tf 336.00 575.89 Td (10.10.0.0/16) Tj ET
+0.100 0.150 0.200 rg
+BT /F1 8 Tf 416.00 575.89 Td (None) Tj ET
+0.100 0.150 0.200 rg
+BT /F1 8 Tf 471.00 575.89 Td (-) Tj ET
+0.850 0.880 0.920 RG 0.75 w
+0.980 0.990 1.000 rg
+45.00 552.89 505.00 18.00 re B
+0.100 0.150 0.200 rg
+BT /F3 8 Tf 51.00 557.89 Td (ewb-vpc-b) Tj ET
+0.100 0.150 0.200 rg
+BT /F1 8 Tf 136.00 557.89 Td (VPC B) Tj ET
+0.100 0.150 0.200 rg
+BT /F3 8 Tf 211.00 557.89 Td (vpc-09f8e7d6c5b4a3210) Tj ET
+0.100 0.150 0.200 rg
+BT /F3 8 Tf 336.00 557.89 Td (10.20.0.0/16) Tj ET
+0.100 0.150 0.200 rg
+BT /F1 8 Tf 416.00 557.89 Td (None) Tj ET
+0.100 0.150 0.200 rg
+BT /F1 8 Tf 471.00 557.89 Td (-) Tj ET
+0.850 0.880 0.920 RG 0.75 w
+1.000 1.000 1.000 rg
+45.00 534.89 505.00 18.00 re B
+0.100 0.150 0.200 rg
+BT /F3 8 Tf 51.00 539.89 Td (ewb-igw-a) Tj ET
+0.100 0.150 0.200 rg
+BT /F1 8 Tf 136.00 539.89 Td (Internet Gateway) Tj ET
+0.100 0.150 0.200 rg
+BT /F3 8 Tf 211.00 539.89 Td (igw-0abc123456def7890) Tj ET
+0.100 0.150 0.200 rg
+BT /F1 8 Tf 336.00 539.89 Td (Attached to VPC A) Tj ET
+0.100 0.150 0.200 rg
+BT /F1 8 Tf 416.00 539.89 Td (Gateway) Tj ET
+0.100 0.150 0.200 rg
+BT /F1 8 Tf 471.00 539.89 Td (-) Tj ET
+0.850 0.880 0.920 RG 0.75 w
+0.980 0.990 1.000 rg
+45.00 516.89 505.00 18.00 re B
+0.100 0.150 0.200 rg
+BT /F1 8 Tf 51.00 521.89 Td (ewb-a-public) Tj ET
+0.100 0.150 0.200 rg
+BT /F1 8 Tf 136.00 521.89 Td (Public Subnet) Tj ET
+0.100 0.150 0.200 rg
+BT /F3 8 Tf 211.00 521.89 Td (subnet-0a111111111111111) Tj ET
+0.100 0.150 0.200 rg
+BT /F3 8 Tf 336.00 521.89 Td (10.10.1.0/24) Tj ET
+0.100 0.150 0.200 rg
+BT /F1 8 Tf 416.00 521.89 Td (Enabled) Tj ET
+0.100 0.150 0.200 rg
+BT /F1 8 Tf 471.00 521.89 Td (-) Tj ET
+0.850 0.880 0.920 RG 0.75 w
+1.000 1.000 1.000 rg
+45.00 498.89 505.00 18.00 re B
+0.100 0.150 0.200 rg
+BT /F1 8 Tf 51.00 503.89 Td (ewb-a-private) Tj ET
+0.100 0.150 0.200 rg
+BT /F1 8 Tf 136.00 503.89 Td (Private Subnet) Tj ET
+0.100 0.150 0.200 rg
+BT /F3 8 Tf 211.00 503.89 Td (subnet-0a222222222222222) Tj ET
+0.100 0.150 0.200 rg
+BT /F3 8 Tf 336.00 503.89 Td (10.10.2.0/24) Tj ET
+0.100 0.150 0.200 rg
+BT /F1 8 Tf 416.00 503.89 Td (Disabled) Tj ET
+0.100 0.150 0.200 rg
+BT /F1 8 Tf 471.00 503.89 Td (-) Tj ET
+0.850 0.880 0.920 RG 0.75 w
+0.980 0.990 1.000 rg
+45.00 480.89 505.00 18.00 re B
+0.100 0.150 0.200 rg
+BT /F1 8 Tf 51.00 485.89 Td (ewb-b-private) Tj ET
+0.100 0.150 0.200 rg
+BT /F1 8 Tf 136.00 485.89 Td (Private Subnet) Tj ET
+0.100 0.150 0.200 rg
+BT /F3 8 Tf 211.00 485.89 Td (subnet-0b111111111111111) Tj ET
+0.100 0.150 0.200 rg
+BT /F3 8 Tf 336.00 485.89 Td (10.20.1.0/24) Tj ET
+0.100 0.150 0.200 rg
+BT /F1 8 Tf 416.00 485.89 Td (Disabled) Tj ET
+0.100 0.150 0.200 rg
+BT /F1 8 Tf 471.00 485.89 Td (-) Tj ET
+0.850 0.880 0.920 RG 0.75 w
+1.000 1.000 1.000 rg
+45.00 462.89 505.00 18.00 re B
+0.100 0.150 0.200 rg
+BT /F1 8 Tf 51.00 467.89 Td (ewb-bastion) Tj ET
+0.100 0.150 0.200 rg
+BT /F1 8 Tf 136.00 467.89 Td (Bastion Host) Tj ET
+0.100 0.150 0.200 rg
+BT /F3 8 Tf 211.00 467.89 Td (i-01111111111111111) Tj ET
+0.100 0.150 0.200 rg
+BT /F3 8 Tf 336.00 467.89 Td (10.10.1.10) Tj ET
+0.100 0.150 0.200 rg
+BT /F1 8 Tf 416.00 467.89 Td (13.235.45.112) Tj ET
+0.100 0.150 0.200 rg
+BT /F3 8 Tf 471.00 467.89 Td (ewb-sg-bastion) Tj ET
+0.850 0.880 0.920 RG 0.75 w
+0.980 0.990 1.000 rg
+45.00 444.89 505.00 18.00 re B
+0.100 0.150 0.200 rg
+BT /F1 8 Tf 51.00 449.89 Td (ewb-app-a) Tj ET
+0.100 0.150 0.200 rg
+BT /F1 8 Tf 136.00 449.89 Td (Private App A) Tj ET
+0.100 0.150 0.200 rg
+BT /F3 8 Tf 211.00 449.89 Td (i-02222222222222222) Tj ET
+0.100 0.150 0.200 rg
+BT /F3 8 Tf 336.00 449.89 Td (10.10.2.10) Tj ET
+0.100 0.150 0.200 rg
+BT /F1 8 Tf 416.00 449.89 Td (None) Tj ET
+0.100 0.150 0.200 rg
+BT /F3 8 Tf 471.00 449.89 Td (ewb-sg-app-a) Tj ET
+0.850 0.880 0.920 RG 0.75 w
+1.000 1.000 1.000 rg
+45.00 426.89 505.00 18.00 re B
+0.100 0.150 0.200 rg
+BT /F1 8 Tf 51.00 431.89 Td (ewb-app-b) Tj ET
+0.100 0.150 0.200 rg
+BT /F1 8 Tf 136.00 431.89 Td (Private App B) Tj ET
+0.100 0.150 0.200 rg
+BT /F3 8 Tf 211.00 431.89 Td (i-03333333333333333) Tj ET
+0.100 0.150 0.200 rg
+BT /F3 8 Tf 336.00 431.89 Td (10.20.1.10) Tj ET
+0.100 0.150 0.200 rg
+BT /F1 8 Tf 416.00 431.89 Td (None) Tj ET
+0.100 0.150 0.200 rg
+BT /F3 8 Tf 471.00 431.89 Td (ewb-sg-app-b) Tj ET
+0.850 0.880 0.920 RG 0.75 w
+0.980 0.990 1.000 rg
+45.00 408.89 505.00 18.00 re B
+0.100 0.150 0.200 rg
+BT /F1 8 Tf 51.00 413.89 Td (ewb-a-b-peer) Tj ET
+0.100 0.150 0.200 rg
+BT /F1 8 Tf 136.00 413.89 Td (VPC Peering) Tj ET
+0.100 0.150 0.200 rg
+BT /F3 8 Tf 211.00 413.89 Td (pcx-0123456789abcdef0) Tj ET
+0.100 0.150 0.200 rg
+BT /F1 8 Tf 336.00 413.89 Td (VPC A <-> VPC B) Tj ET
+0.100 0.150 0.200 rg
+BT /F1 8 Tf 416.00 413.89 Td (Active) Tj ET
+0.100 0.150 0.200 rg
+BT /F1 8 Tf 471.00 413.89 Td (-) Tj ET
+0.800 0.850 0.900 RG 1.00 w
+0.940 0.960 0.980 rg
+45.00 378.89 505.28 22.00 re B
+0.040 0.150 0.350 rg
+BT /F2 11 Tf 55.00 383.89 Td (2. Subnets, Internet Gateway & Route Associations) Tj ET
+0.100 0.450 0.750 rg
+BT /F2 9 Tf 495.28 383.89 Td ([20 Marks]) Tj ET
+0.100 0.100 0.100 rg
+BT /F1 8.5 Tf 45.00 366.89 Td (Explicit route table associations ensure traffic isolation. Default route 0.0.0.0/0 exists ONLY in VPC A Public.) Tj ET
+0.750 0.800 0.850 RG 1.00 w
+0.880 0.910 0.950 rg
+45.00 334.89 505.00 18.00 re B
+0.150 0.200 0.300 rg
+BT /F2 8.5 Tf 51.00 339.89 Td (Route Table Name) Tj ET
+0.150 0.200 0.300 rg
+BT /F2 8.5 Tf 146.00 339.89 Td (Associated Subnet) Tj ET
+0.150 0.200 0.300 rg
+BT /F2 8.5 Tf 271.00 339.89 Td (Destination CIDR) Tj ET
+0.150 0.200 0.300 rg
+BT /F2 8.5 Tf 351.00 339.89 Td (Target) Tj ET
+0.150 0.200 0.300 rg
+BT /F2 8.5 Tf 461.00 339.89 Td (Routing Purpose) Tj ET
+0.850 0.880 0.920 RG 0.75 w
+1.000 1.000 1.000 rg
+45.00 316.89 505.00 18.00 re B
+0.100 0.150 0.200 rg
+BT /F1 8 Tf 51.00 321.89 Td (ewb-rt-a-public) Tj ET
+0.100 0.150 0.200 rg
+BT /F3 8 Tf 146.00 321.89 Td (ewb-a-public \(10.10.1.0/24\)) Tj ET
+0.100 0.150 0.200 rg
+BT /F3 8 Tf 271.00 321.89 Td (10.10.0.0/16) Tj ET
+0.100 0.150 0.200 rg
+BT /F1 8 Tf 351.00 321.89 Td (local) Tj ET
+0.100 0.150 0.200 rg
+BT /F1 8 Tf 461.00 321.89 Td (VPC A Local Traffic) Tj ET
+0.850 0.880 0.920 RG 0.75 w
+0.980 0.990 1.000 rg
+45.00 298.89 505.00 18.00 re B
+0.100 0.150 0.200 rg
+BT /F1 8 Tf 51.00 303.89 Td (ewb-rt-a-public) Tj ET
+0.100 0.150 0.200 rg
+BT /F3 8 Tf 146.00 303.89 Td (ewb-a-public \(10.10.1.0/24\)) Tj ET
+0.100 0.150 0.200 rg
+BT /F1 8 Tf 271.00 303.89 Td (0.0.0.0/0) Tj ET
+0.100 0.150 0.200 rg
+BT /F3 8 Tf 351.00 303.89 Td (igw-0abc123456def7890) Tj ET
+0.100 0.150 0.200 rg
+BT /F1 8 Tf 461.00 303.89 Td (Internet Access for Bastion) Tj ET
+0.850 0.880 0.920 RG 0.75 w
+1.000 1.000 1.000 rg
+45.00 280.89 505.00 18.00 re B
+0.100 0.150 0.200 rg
+BT /F1 8 Tf 51.00 285.89 Td (ewb-rt-a-public) Tj ET
+0.100 0.150 0.200 rg
+BT /F3 8 Tf 146.00 285.89 Td (ewb-a-public \(10.10.1.0/24\)) Tj ET
+0.100 0.150 0.200 rg
+BT /F3 8 Tf 271.00 285.89 Td (10.20.0.0/16) Tj ET
+0.100 0.150 0.200 rg
+BT /F3 8 Tf 351.00 285.89 Td (pcx-0123456789abcdef0) Tj ET
+0.100 0.150 0.200 rg
+BT /F1 8 Tf 461.00 285.89 Td (Bastion ProxyJump to App-B) Tj ET
+0.850 0.880 0.920 RG 0.75 w
+0.980 0.990 1.000 rg
+45.00 262.89 505.00 18.00 re B
+0.100 0.150 0.200 rg
+BT /F1 8 Tf 51.00 267.89 Td (ewb-rt-a-private) Tj ET
+0.100 0.150 0.200 rg
+BT /F3 8 Tf 146.00 267.89 Td (ewb-a-private \(10.10.2.0/24\)) Tj ET
+0.100 0.150 0.200 rg
+BT /F3 8 Tf 271.00 267.89 Td (10.10.0.0/16) Tj ET
+0.100 0.150 0.200 rg
+BT /F1 8 Tf 351.00 267.89 Td (local) Tj ET
+0.100 0.150 0.200 rg
+BT /F1 8 Tf 461.00 267.89 Td (VPC A Local Traffic) Tj ET
+0.850 0.880 0.920 RG 0.75 w
+1.000 1.000 1.000 rg
+45.00 244.89 505.00 18.00 re B
+0.100 0.150 0.200 rg
+BT /F1 8 Tf 51.00 249.89 Td (ewb-rt-a-private) Tj ET
+0.100 0.150 0.200 rg
+BT /F3 8 Tf 146.00 249.89 Td (ewb-a-private \(10.10.2.0/24\)) Tj ET
+0.100 0.150 0.200 rg
+BT /F3 8 Tf 271.00 249.89 Td (10.20.0.0/16) Tj ET
+0.100 0.150 0.200 rg
+BT /F3 8 Tf 351.00 249.89 Td (pcx-0123456789abcdef0) Tj ET
+0.100 0.150 0.200 rg
+BT /F1 8 Tf 461.00 249.89 Td (Forward Route App-A -> VPC B) Tj ET
+0.850 0.880 0.920 RG 0.75 w
+0.980 0.990 1.000 rg
+45.00 226.89 505.00 18.00 re B
+0.100 0.150 0.200 rg
+BT /F1 8 Tf 51.00 231.89 Td (ewb-rt-b-private) Tj ET
+0.100 0.150 0.200 rg
+BT /F3 8 Tf 146.00 231.89 Td (ewb-b-private \(10.20.1.0/24\)) Tj ET
+0.100 0.150 0.200 rg
+BT /F3 8 Tf 271.00 231.89 Td (10.20.0.0/16) Tj ET
+0.100 0.150 0.200 rg
+BT /F1 8 Tf 351.00 231.89 Td (local) Tj ET
+0.100 0.150 0.200 rg
+BT /F1 8 Tf 461.00 231.89 Td (VPC B Local Traffic) Tj ET
+0.850 0.880 0.920 RG 0.75 w
+1.000 1.000 1.000 rg
+45.00 208.89 505.00 18.00 re B
+0.100 0.150 0.200 rg
+BT /F1 8 Tf 51.00 213.89 Td (ewb-rt-b-private) Tj ET
+0.100 0.150 0.200 rg
+BT /F3 8 Tf 146.00 213.89 Td (ewb-b-private \(10.20.1.0/24\)) Tj ET
+0.100 0.150 0.200 rg
+BT /F3 8 Tf 271.00 213.89 Td (10.10.0.0/16) Tj ET
+0.100 0.150 0.200 rg
+BT /F3 8 Tf 351.00 213.89 Td (pcx-0123456789abcdef0) Tj ET
+0.100 0.150 0.200 rg
+BT /F1 8 Tf 461.00 213.89 Td (Return Route VPC B -> VPC A) Tj ET
+0.85 0.88 0.92 RG 0.5 w
+45.00 805.0 m 550.28 805.0 l S
+0.5 0.55 0.6 rg BT /F1 8 Tf 45.00 810.0 Td (EWB Cloud Labs  |  AWS VPC Peering Technical Report) Tj ET
+45.00 35.0 m 550.28 35.0 l S
+0.5 0.55 0.6 rg BT /F1 8 Tf 500.28 24.0 Td (Page 1 of 3) Tj ET
+0.5 0.55 0.6 rg BT /F1 8 Tf 45.00 24.0 Td (AWS Architect Associate  *  Strictly Confidential  *  Academic Deliverable) Tj ET
+endstream
+endobj
+12 0 obj
+<< /Length 7177 >>
+stream
+0.800 0.850 0.900 RG 1.00 w
+0.940 0.960 0.980 rg
+45.00 773.89 505.28 22.00 re B
+0.040 0.150 0.350 rg
+BT /F2 11 Tf 55.00 778.89 Td (3. Peering Connection & Inbound Security Rules \(/32\)) Tj ET
+0.100 0.450 0.750 rg
+BT /F2 9 Tf 495.28 778.89 Td ([20 Marks]) Tj ET
+0.100 0.100 0.100 rg
+BT /F1 8.5 Tf 45.00 761.89 Td (Least-privilege security group rules restrict traffic to explicit /32 host addresses. ProxyJump protects keys.) Tj ET
+0.750 0.800 0.850 RG 1.00 w
+0.880 0.910 0.950 rg
+45.00 729.89 505.00 18.00 re B
+0.150 0.200 0.300 rg
+BT /F2 8.5 Tf 51.00 734.89 Td (Security Group) Tj ET
+0.150 0.200 0.300 rg
+BT /F2 8.5 Tf 136.00 734.89 Td (VPC) Tj ET
+0.150 0.200 0.300 rg
+BT /F2 8.5 Tf 181.00 734.89 Td (Protocol / Port) Tj ET
+0.150 0.200 0.300 rg
+BT /F2 8.5 Tf 266.00 734.89 Td (Permitted Source IP) Tj ET
+0.150 0.200 0.300 rg
+BT /F2 8.5 Tf 386.00 734.89 Td (Rule Purpose & Enforcement) Tj ET
+0.850 0.880 0.920 RG 0.75 w
+1.000 1.000 1.000 rg
+45.00 711.89 505.00 18.00 re B
+0.100 0.150 0.200 rg
+BT /F3 8 Tf 51.00 716.89 Td (ewb-sg-bastion) Tj ET
+0.100 0.150 0.200 rg
+BT /F1 8 Tf 136.00 716.89 Td (VPC A) Tj ET
+0.100 0.150 0.200 rg
+BT /F1 8 Tf 181.00 716.89 Td (SSH / TCP 22) Tj ET
+0.100 0.150 0.200 rg
+BT /F1 8 Tf 266.00 716.89 Td (203.0.113.25/32 \(Admin IP\)) Tj ET
+0.100 0.150 0.200 rg
+BT /F1 8 Tf 386.00 716.89 Td (Restricts external SSH to admin workstation) Tj ET
+0.850 0.880 0.920 RG 0.75 w
+0.980 0.990 1.000 rg
+45.00 693.89 505.00 18.00 re B
+0.100 0.150 0.200 rg
+BT /F3 8 Tf 51.00 698.89 Td (ewb-sg-app-a) Tj ET
+0.100 0.150 0.200 rg
+BT /F1 8 Tf 136.00 698.89 Td (VPC A) Tj ET
+0.100 0.150 0.200 rg
+BT /F1 8 Tf 181.00 698.89 Td (SSH / TCP 22) Tj ET
+0.100 0.150 0.200 rg
+BT /F3 8 Tf 266.00 698.89 Td (10.10.1.10/32 \(Bastion IP\)) Tj ET
+0.100 0.150 0.200 rg
+BT /F1 8 Tf 386.00 698.89 Td (Allows SSH only from internal Bastion host) Tj ET
+0.850 0.880 0.920 RG 0.75 w
+1.000 1.000 1.000 rg
+45.00 675.89 505.00 18.00 re B
+0.100 0.150 0.200 rg
+BT /F3 8 Tf 51.00 680.89 Td (ewb-sg-app-a) Tj ET
+0.100 0.150 0.200 rg
+BT /F1 8 Tf 136.00 680.89 Td (VPC A) Tj ET
+0.100 0.150 0.200 rg
+BT /F1 8 Tf 181.00 680.89 Td (ICMP Echo \(8/0\)) Tj ET
+0.100 0.150 0.200 rg
+BT /F3 8 Tf 266.00 680.89 Td (10.20.1.10/32 \(App-B IP\)) Tj ET
+0.100 0.150 0.200 rg
+BT /F1 8 Tf 386.00 680.89 Td (Permits connectivity verification from App-B) Tj ET
+0.850 0.880 0.920 RG 0.75 w
+0.980 0.990 1.000 rg
+45.00 657.89 505.00 18.00 re B
+0.100 0.150 0.200 rg
+BT /F3 8 Tf 51.00 662.89 Td (ewb-sg-app-b) Tj ET
+0.100 0.150 0.200 rg
+BT /F1 8 Tf 136.00 662.89 Td (VPC B) Tj ET
+0.100 0.150 0.200 rg
+BT /F1 8 Tf 181.00 662.89 Td (SSH / TCP 22) Tj ET
+0.100 0.150 0.200 rg
+BT /F3 8 Tf 266.00 662.89 Td (10.10.1.10/32 \(Bastion IP\)) Tj ET
+0.100 0.150 0.200 rg
+BT /F1 8 Tf 386.00 662.89 Td (Allows SSH ProxyJump from Bastion across peering) Tj ET
+0.850 0.880 0.920 RG 0.75 w
+1.000 1.000 1.000 rg
+45.00 639.89 505.00 18.00 re B
+0.100 0.150 0.200 rg
+BT /F3 8 Tf 51.00 644.89 Td (ewb-sg-app-b) Tj ET
+0.100 0.150 0.200 rg
+BT /F1 8 Tf 136.00 644.89 Td (VPC B) Tj ET
+0.100 0.150 0.200 rg
+BT /F1 8 Tf 181.00 644.89 Td (ICMP Echo \(8/0\)) Tj ET
+0.100 0.150 0.200 rg
+BT /F3 8 Tf 266.00 644.89 Td (10.10.2.10/32 \(App-A IP\)) Tj ET
+0.100 0.150 0.200 rg
+BT /F1 8 Tf 386.00 644.89 Td (Permits connectivity verification from App-A) Tj ET
+0.800 0.850 0.900 RG 1.00 w
+0.940 0.960 0.980 rg
+45.00 609.89 505.28 22.00 re B
+0.040 0.150 0.350 rg
+BT /F2 11 Tf 55.00 614.89 Td (4. Verification & Acceptance Test Evidence) Tj ET
+0.100 0.450 0.750 rg
+BT /F2 9 Tf 495.28 614.89 Td ([25 Marks]) Tj ET
+0.200 0.220 0.250 RG 1.00 w
+0.050 0.070 0.090 rg
+45.00 495.89 505.28 102.00 re B
+0.100 0.120 0.150 rg
+45.00 579.89 505.28 18.00 re f
+1.000 0.350 0.350 rg
+53.00 584.89 6.00 6.00 re f
+1.000 0.750 0.200 rg
+63.00 584.89 6.00 6.00 re f
+0.150 0.800 0.300 rg
+73.00 584.89 6.00 6.00 re f
+0.600 0.650 0.700 rg
+BT /F2 8 Tf 87.00 584.89 Td (Test 01: Baseline Failure \(Pre-Peering State\)) Tj ET
+0.350 0.650 1.000 rg
+BT /F4 7.5 Tf 57.00 567.89 Td ([ec2-user@ip-10-10-2-10 ~]$ hostname && hostname -I) Tj ET
+0.800 0.850 0.900 rg
+BT /F3 7.5 Tf 57.00 554.89 Td (ip-10-10-2-10.ap-south-1.compute.internal  10.10.2.10) Tj ET
+0.350 0.650 1.000 rg
+BT /F4 7.5 Tf 57.00 541.89 Td ([ec2-user@ip-10-10-2-10 ~]$ ping -c 4 10.20.1.10) Tj ET
+0.800 0.850 0.900 rg
+BT /F3 7.5 Tf 57.00 528.89 Td (PING 10.20.1.10 \(10.20.1.10\) 56\(84\) bytes of data.) Tj ET
+0.800 0.850 0.900 rg
+BT /F3 7.5 Tf 57.00 515.89 Td (--- 10.20.1.10 ping statistics ---) Tj ET
+0.300 0.900 0.400 rg
+BT /F3 7.5 Tf 57.00 502.89 Td (4 packets transmitted, 0 received, 100% packet loss, time 3072ms  [BASELINE PASS]) Tj ET
+0.200 0.220 0.250 RG 1.00 w
+0.050 0.070 0.090 rg
+45.00 379.89 505.28 102.00 re B
+0.100 0.120 0.150 rg
+45.00 463.89 505.28 18.00 re f
+1.000 0.350 0.350 rg
+53.00 468.89 6.00 6.00 re f
+1.000 0.750 0.200 rg
+63.00 468.89 6.00 6.00 re f
+0.150 0.800 0.300 rg
+73.00 468.89 6.00 6.00 re f
+0.600 0.650 0.700 rg
+BT /F2 8 Tf 87.00 468.89 Td (Test 02: Forward Path Reachability \(App-A -> App-B Post-Peering\)) Tj ET
+0.350 0.650 1.000 rg
+BT /F4 7.5 Tf 57.00 451.89 Td ([ec2-user@ip-10-10-2-10 ~]$ ping -c 4 10.20.1.10) Tj ET
+0.800 0.850 0.900 rg
+BT /F3 7.5 Tf 57.00 438.89 Td (PING 10.20.1.10 \(10.20.1.10\) 56\(84\) bytes of data.) Tj ET
+0.300 0.900 0.400 rg
+BT /F3 7.5 Tf 57.00 425.89 Td (64 bytes from 10.20.1.10: icmp_seq=1 ttl=127 time=0.942 ms) Tj ET
+0.300 0.900 0.400 rg
+BT /F3 7.5 Tf 57.00 412.89 Td (64 bytes from 10.20.1.10: icmp_seq=2 ttl=127 time=0.891 ms) Tj ET
+0.800 0.850 0.900 rg
+BT /F3 7.5 Tf 57.00 399.89 Td (--- 10.20.1.10 ping statistics ---) Tj ET
+0.300 0.900 0.400 rg
+BT /F3 7.5 Tf 57.00 386.89 Td (4 packets transmitted, 4 received, 0% packet loss, time 3004ms \(rtt avg = 0.898 ms\)  [PASS]) Tj ET
+0.200 0.220 0.250 RG 1.00 w
+0.050 0.070 0.090 rg
+45.00 263.89 505.28 102.00 re B
+0.100 0.120 0.150 rg
+45.00 347.89 505.28 18.00 re f
+1.000 0.350 0.350 rg
+53.00 352.89 6.00 6.00 re f
+1.000 0.750 0.200 rg
+63.00 352.89 6.00 6.00 re f
+0.150 0.800 0.300 rg
+73.00 352.89 6.00 6.00 re f
+0.600 0.650 0.700 rg
+BT /F2 8 Tf 87.00 352.89 Td (Test 03: Reverse Path Reachability \(App-B -> App-A Post-Peering\)) Tj ET
+0.350 0.650 1.000 rg
+BT /F4 7.5 Tf 57.00 335.89 Td ([ec2-user@ip-10-20-1-10 ~]$ hostname && hostname -I) Tj ET
+0.800 0.850 0.900 rg
+BT /F3 7.5 Tf 57.00 322.89 Td (ip-10-20-1-10.ap-south-1.compute.internal  10.20.1.10) Tj ET
+0.350 0.650 1.000 rg
+BT /F4 7.5 Tf 57.00 309.89 Td ([ec2-user@ip-10-20-1-10 ~]$ ping -c 4 10.10.2.10) Tj ET
+0.300 0.900 0.400 rg
+BT /F3 7.5 Tf 57.00 296.89 Td (64 bytes from 10.10.2.10: icmp_seq=1 ttl=127 time=0.912 ms) Tj ET
+0.800 0.850 0.900 rg
+BT /F3 7.5 Tf 57.00 283.89 Td (--- 10.10.2.10 ping statistics ---) Tj ET
+0.300 0.900 0.400 rg
+BT /F3 7.5 Tf 57.00 270.89 Td (4 packets transmitted, 4 received, 0% packet loss, time 3003ms \(rtt avg = 0.889 ms\)  [PASS]) Tj ET
+0.85 0.88 0.92 RG 0.5 w
+45.00 805.0 m 550.28 805.0 l S
+0.5 0.55 0.6 rg BT /F1 8 Tf 45.00 810.0 Td (EWB Cloud Labs  |  AWS VPC Peering Technical Report) Tj ET
+45.00 35.0 m 550.28 35.0 l S
+0.5 0.55 0.6 rg BT /F1 8 Tf 500.28 24.0 Td (Page 2 of 3) Tj ET
+0.5 0.55 0.6 rg BT /F1 8 Tf 45.00 24.0 Td (AWS Architect Associate  *  Strictly Confidential  *  Academic Deliverable) Tj ET
+endstream
+endobj
+13 0 obj
+<< /Length 7578 >>
+stream
+0.200 0.220 0.250 RG 1.00 w
+0.050 0.070 0.090 rg
+45.00 676.89 505.28 115.00 re B
+0.100 0.120 0.150 rg
+45.00 773.89 505.28 18.00 re f
+1.000 0.350 0.350 rg
+53.00 778.89 6.00 6.00 re f
+1.000 0.750 0.200 rg
+63.00 778.89 6.00 6.00 re f
+0.150 0.800 0.300 rg
+73.00 778.89 6.00 6.00 re f
+0.600 0.650 0.700 rg
+BT /F2 8 Tf 87.00 778.89 Td (Test 04 & 05: Private SSH via ProxyJump & Host Isolation Verification) Tj ET
+0.350 0.650 1.000 rg
+BT /F4 7.5 Tf 57.00 761.89 Td (admin@laptop:~$ ssh ewb-app-b) Tj ET
+0.800 0.850 0.900 rg
+BT /F3 7.5 Tf 57.00 748.89 Td (Last login: Fri Oct 30 22:30:15 2026 from 10.10.1.10) Tj ET
+0.800 0.850 0.900 rg
+BT /F3 7.5 Tf 57.00 735.89 Td (   Amazon Linux 2023 \(AL2023 AMI 2023.6.20261020\)) Tj ET
+0.350 0.650 1.000 rg
+BT /F4 7.5 Tf 57.00 722.89 Td ([ec2-user@ip-10-20-1-10 ~]$ who am i) Tj ET
+0.800 0.850 0.900 rg
+BT /F3 7.5 Tf 57.00 709.89 Td (ec2-user  pts/0  2026-10-30 22:31 \(10.10.1.10\)  [SSH SOURCED FROM BASTION PRIVATE IP]) Tj ET
+0.350 0.650 1.000 rg
+BT /F4 7.5 Tf 57.00 696.89 Td ([ec2-user@ip-10-20-1-10 ~]$ curl -s http://169.254.169.254/latest/meta-data/public-ipv4) Tj ET
+0.800 0.850 0.900 rg
+BT /F3 7.5 Tf 57.00 683.89 Td (404 - Not Found \(Confirmed: Zero Public IPv4 on App-B\)  [ISOLATION VERIFIED]) Tj ET
+0.200 0.220 0.250 RG 1.00 w
+0.050 0.070 0.090 rg
+45.00 560.89 505.28 102.00 re B
+0.100 0.120 0.150 rg
+45.00 644.89 505.28 18.00 re f
+1.000 0.350 0.350 rg
+53.00 649.89 6.00 6.00 re f
+1.000 0.750 0.200 rg
+63.00 649.89 6.00 6.00 re f
+0.150 0.800 0.300 rg
+73.00 649.89 6.00 6.00 re f
+0.600 0.650 0.700 rg
+BT /F2 8 Tf 87.00 649.89 Td (Controlled Failure & Recovery Experiment \(Stateful SG Enforcement\)) Tj ET
+0.350 0.650 1.000 rg
+BT /F4 7.5 Tf 57.00 632.89 Td ($ aws ec2 revoke-security-group-ingress --group-id sg-03333333333333333 --protocol icmp --port -1 --cidr 10.10.2.10/32) Tj ET
+0.350 0.650 1.000 rg
+BT /F4 7.5 Tf 57.00 619.89 Td ([ec2-user@ip-10-10-2-10 ~]$ ping -c 4 -W 2 10.20.1.10) Tj ET
+0.300 0.900 0.400 rg
+BT /F3 7.5 Tf 57.00 606.89 Td (--- 10.20.1.10 ping statistics --- 4 packets transmitted, 0 received, 100% packet loss  [FAILURE CONFIRMED]) Tj ET
+0.350 0.650 1.000 rg
+BT /F4 7.5 Tf 57.00 593.89 Td ($ aws ec2 authorize-security-group-ingress --group-id sg-03333333333333333 --protocol icmp --port -1 --cidr 10.10.2.10/32) Tj ET
+0.350 0.650 1.000 rg
+BT /F4 7.5 Tf 57.00 580.89 Td ([ec2-user@ip-10-10-2-10 ~]$ ping -c 4 10.20.1.10) Tj ET
+0.300 0.900 0.400 rg
+BT /F3 7.5 Tf 57.00 567.89 Td (64 bytes from 10.20.1.10: icmp_seq=1 ttl=127 time=0.908 ms \(4 transmitted, 4 received, 0% packet loss\) [RECOVERED]) Tj ET
+0.800 0.850 0.900 RG 1.00 w
+0.940 0.960 0.980 rg
+45.00 528.89 505.28 22.00 re B
+0.040 0.150 0.350 rg
+BT /F2 11 Tf 55.00 533.89 Td (5. Viva Defense & Architectural Analysis) Tj ET
+0.100 0.450 0.750 rg
+BT /F2 9 Tf 495.28 533.89 Td ([10 Marks]) Tj ET
+0.850 0.880 0.920 RG 1.00 w
+0.990 1.000 1.000 rg
+45.00 444.89 505.28 72.00 re B
+0.150 0.450 0.850 rg
+45.00 444.89 4.00 72.00 re f
+0.080 0.220 0.500 rg
+BT /F2 9 Tf 57.00 502.89 Td (Q1: Why is the return route needed?) Tj ET
+0.200 0.250 0.300 rg
+BT /F1 8 Tf 57.00 488.89 Td (Routing is directional and hop-by-hop. When App-A transmits an ICMP Echo Request, VPC A) Tj ET
+0.200 0.250 0.300 rg
+BT /F1 8 Tf 57.00 476.89 Td (forwards it to pcx. When App-B crafts the Echo Reply to 10.10.2.10, VPC B evaluates its) Tj ET
+0.200 0.250 0.300 rg
+BT /F1 8 Tf 57.00 464.89 Td (own route table. Without an explicit entry directing 10.10.0.0/16 to pcx, VPC B drops) Tj ET
+0.200 0.250 0.300 rg
+BT /F1 8 Tf 57.00 452.89 Td (the reply frame.) Tj ET
+0.850 0.880 0.920 RG 1.00 w
+0.990 1.000 1.000 rg
+45.00 362.89 505.28 72.00 re B
+0.150 0.450 0.850 rg
+45.00 362.89 4.00 72.00 re f
+0.080 0.220 0.500 rg
+BT /F2 9 Tf 57.00 420.89 Td (Q2: Why is the App-B SSH source the bastion private IP?) Tj ET
+0.200 0.250 0.300 rg
+BT /F1 8 Tf 57.00 406.89 Td (Under OpenSSH ProxyJump, the workstation terminates its SSH transport layer at the) Tj ET
+0.200 0.250 0.300 rg
+BT /F1 8 Tf 57.00 394.89 Td (Bastion. The Bastion SSH daemon spawns a brand new outbound TCP connection from its own) Tj ET
+0.200 0.250 0.300 rg
+BT /F1 8 Tf 57.00 382.89 Td (ENI to App-B \(10.20.1.10:22\). Therefore, App-B receives the Bastion's private IP) Tj ET
+0.200 0.250 0.300 rg
+BT /F1 8 Tf 57.00 370.89 Td (\(10.10.1.10\) in the IPv4 source header.) Tj ET
+0.850 0.880 0.920 RG 1.00 w
+0.990 1.000 1.000 rg
+45.00 280.89 505.28 72.00 re B
+0.150 0.450 0.850 rg
+45.00 280.89 4.00 72.00 re f
+0.080 0.220 0.500 rg
+BT /F2 9 Tf 57.00 338.89 Td (Q3: Why does Active peering not guarantee a successful ping?) Tj ET
+0.200 0.250 0.300 rg
+BT /F1 8 Tf 57.00 324.89 Td (Active status only establishes the SDN logical interconnect in the control plane. Data) Tj ET
+0.200 0.250 0.300 rg
+BT /F1 8 Tf 57.00 312.89 Td (packets require: \(1\) Explicit routing table entries for the peer CIDR, \(2\) Security) Tj ET
+0.200 0.250 0.300 rg
+BT /F1 8 Tf 57.00 300.89 Td (Group inbound rules permitting ICMP Echo Request \(Type 8, Code 0\), and \(3\) Network ACLs) Tj ET
+0.200 0.250 0.300 rg
+BT /F1 8 Tf 57.00 288.89 Td (permitting the traffic.) Tj ET
+0.850 0.880 0.920 RG 1.00 w
+0.990 1.000 1.000 rg
+45.00 210.89 505.28 60.00 re B
+0.150 0.450 0.850 rg
+45.00 210.89 4.00 60.00 re f
+0.080 0.220 0.500 rg
+BT /F2 9 Tf 57.00 256.89 Td (Q4: Can VPC B use VPC A's internet gateway over peering?) Tj ET
+0.200 0.250 0.300 rg
+BT /F1 8 Tf 57.00 242.89 Td (No. AWS VPC Peering is strictly non-transitive. Traffic entering VPC A via a peering) Tj ET
+0.200 0.250 0.300 rg
+BT /F1 8 Tf 57.00 230.89 Td (connection cannot be routed out of VPC A through an Internet Gateway or NAT Gateway.) Tj ET
+0.200 0.250 0.300 rg
+BT /F1 8 Tf 57.00 218.89 Td (Transitive egress requires AWS Transit Gateway.) Tj ET
+0.800 0.850 0.900 RG 1.00 w
+0.940 0.960 0.980 rg
+45.00 182.89 505.28 22.00 re B
+0.040 0.150 0.350 rg
+BT /F2 11 Tf 55.00 187.89 Td (6. Cleanup Verification & Engineering Learnings) Tj ET
+0.100 0.450 0.750 rg
+BT /F2 9 Tf 495.28 187.89 Td ([10 Marks]) Tj ET
+0.200 0.220 0.250 RG 1.00 w
+0.050 0.070 0.090 rg
+45.00 68.89 505.28 102.00 re B
+0.100 0.120 0.150 rg
+45.00 152.89 505.28 18.00 re f
+1.000 0.350 0.350 rg
+53.00 157.89 6.00 6.00 re f
+1.000 0.750 0.200 rg
+63.00 157.89 6.00 6.00 re f
+0.150 0.800 0.300 rg
+73.00 157.89 6.00 6.00 re f
+0.600 0.650 0.700 rg
+BT /F2 8 Tf 87.00 157.89 Td (AWS Teardown Execution Log \(Zero Recurring Costs\)) Tj ET
+0.300 0.900 0.400 rg
+BT /F3 7.5 Tf 57.00 140.89 Td ([1/6] Terminating EC2 Instances \(ewb-bastion, ewb-app-a, ewb-app-b\)... Success. Root EBS volumes deleted.) Tj ET
+0.300 0.900 0.400 rg
+BT /F3 7.5 Tf 57.00 127.89 Td ([2/6] Deleting Peering Connection pcx-0123456789abcdef0... Success.) Tj ET
+0.300 0.900 0.400 rg
+BT /F3 7.5 Tf 57.00 114.89 Td ([3/6] Deleting Security Groups \(ewb-sg-bastion, ewb-sg-app-a, ewb-sg-app-b\)... Success.) Tj ET
+0.300 0.900 0.400 rg
+BT /F3 7.5 Tf 57.00 101.89 Td ([4/6] Deleting Subnets & Custom Route Tables... Success.) Tj ET
+0.300 0.900 0.400 rg
+BT /F3 7.5 Tf 57.00 88.89 Td ([5/6] Detaching and Deleting Internet Gateway ewb-igw-a... Success.) Tj ET
+0.300 0.900 0.400 rg
+BT /F3 7.5 Tf 57.00 75.89 Td ([6/6] Deleting VPCs \(ewb-vpc-a, ewb-vpc-b\)... Success. [ACCOUNT VERIFIED CLEAR OF LAB CHARGES]) Tj ET
+0.85 0.88 0.92 RG 0.5 w
+45.00 805.0 m 550.28 805.0 l S
+0.5 0.55 0.6 rg BT /F1 8 Tf 45.00 810.0 Td (EWB Cloud Labs  |  AWS VPC Peering Technical Report) Tj ET
+45.00 35.0 m 550.28 35.0 l S
+0.5 0.55 0.6 rg BT /F1 8 Tf 500.28 24.0 Td (Page 3 of 3) Tj ET
+0.5 0.55 0.6 rg BT /F1 8 Tf 45.00 24.0 Td (AWS Architect Associate  *  Strictly Confidential  *  Academic Deliverable) Tj ET
+endstream
+endobj
+xref
+0 14
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000110 00000 n 
+0000000180 00000 n 
+0000000277 00000 n 
+0000000379 00000 n 
+0000000474 00000 n 
+0000000574 00000 n 
+0000000757 00000 n 
+0000000940 00000 n 
+0000001124 00000 n 
+0000012395 00000 n 
+0000019625 00000 n 
+trailer
+<< /Size 14 /Root 1 0 R >>
+startxref
+27256
+%%EOF
